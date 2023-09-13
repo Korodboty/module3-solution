@@ -1,0 +1,44 @@
+/* Ваши стили здесь */
+
+/* Фон панели навигации */
+.navbar {
+    background-color: #333;
+    border: none;
+}
+
+/* Цвет текста и линий в панели навигации */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+/* Стили для мобильного меню */
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/* Заголовок страницы */
+h1 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Стили для раздела с контентом */
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Стили для большого раздела */
+.col-xs-12 {
+    min-height: 1000px; /* Высота вашего раздела */
+    background-color: #fff; /* Цвет фона */
+}
